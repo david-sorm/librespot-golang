@@ -3,11 +3,11 @@ package spirc
 import (
 	"errors"
 	"fmt"
+	"github.com/david-sorm/librespot-golang/Spotify"
+	"github.com/david-sorm/librespot-golang/librespot/core"
+	"github.com/david-sorm/librespot-golang/librespot/mercury"
+	"github.com/david-sorm/librespot-golang/librespot/utils"
 	"github.com/golang/protobuf/proto"
-	"github.com/librespot-org/librespot-golang/Spotify"
-	"github.com/librespot-org/librespot-golang/librespot/core"
-	"github.com/librespot-org/librespot-golang/librespot/mercury"
-	"github.com/librespot-org/librespot-golang/librespot/utils"
 	"strings"
 	"sync"
 )

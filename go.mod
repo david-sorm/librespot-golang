@@ -1,4 +1,4 @@
-module github.com/librespot-org/librespot-golang
+module github.com/david-sorm/librespot-golang
 
 require (
 	github.com/badfortrains/mdns v0.0.0-20160325001438-447166384f51
@@ -10,3 +10,5 @@ require (
 	golang.org/x/crypto v0.0.0-20190418165655-df01cb2cc480
 	golang.org/x/net v0.0.0-20190420063019-afa5a82059c6 // indirect
 )
+
+go 1.13
